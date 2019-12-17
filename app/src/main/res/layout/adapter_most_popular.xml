@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/mCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:id="@+id/mCardLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <com.sukumar.tetrasoft.module.common.CircularImageView
+                    android:id="@+id/moiveImg"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@color/gray"
+                    android:layout_marginStart="18dp"/>
+
+            <TextView
+                    android:id="@+id/movieTitleTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/moiveImg"
+                    android:text="Title"
+                    android:fontFamily="sans-serif-regular"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/writtenByTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/movieTitleTv"
+                    android:layout_toEndOf="@id/moiveImg"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="24dp"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginStart="12dp"/>
+
+            <ImageView
+                    android:id="@+id/dateImg"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/date"
+                    android:layout_below="@id/writtenByTv"
+                    android:layout_marginTop="3dp"
+                    android:layout_toStartOf="@+id/movieDateTv"/>
+
+            <TextView
+                    android:id="@+id/movieDateTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/writtenByTv"
+                    android:text="0000-00-00"
+                    android:layout_marginStart="6dp"
+                    android:layout_toStartOf="@id/goForwardLayout"
+                    android:layout_marginBottom="12dp"/>
+
+            <RelativeLayout
+                    android:id="@+id/goForwardLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="12dp">
+                <ImageView
+                        android:id="@+id/goImg"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/go_forward"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
