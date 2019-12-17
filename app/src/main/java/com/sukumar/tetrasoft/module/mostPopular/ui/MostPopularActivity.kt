@@ -62,7 +62,7 @@ class MostPopularActivity : AppCompatActivity() {
     }
 
     private fun hideProgress(){
-        mProgressBar.visibility=View.GONE
+        mProgressBar.visibility=View.INVISIBLE
     }
 
     private fun showErrorMsg(error : String?){

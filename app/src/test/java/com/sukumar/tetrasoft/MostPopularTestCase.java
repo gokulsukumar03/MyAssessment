@@ -1,4 +1,4 @@
-package com.sukumar.tetrasoft.module;
+package com.sukumar.tetrasoft;
 
 import com.sukumar.tetrasoft.base.ApiConfig;
 import com.sukumar.tetrasoft.base.ApiInterface;
