@@ -33,23 +33,17 @@ import static org.hamcrest.CoreMatchers.not;
 
 @RunWith(AndroidJUnit4.class)
 public class MostPopularActivityUITestCase {
-
     @Rule
     public OkHttpIdlingResourceRule okHttpRule = new OkHttpIdlingResourceRule();
-
     @Rule
     public ActivityTestRule<MostPopularActivity> activityRule = new ActivityTestRule<>(MostPopularActivity.class);
-
     private final MockWebServer mockWebServer = new MockWebServer();
     private String mockResponse="";
-
     @Before
     public void SETUP() throws IOException {
         mockWebServer.start(8080);
         ActivityScenario.launch(MostPopularActivity.class);
     }
-
-
     @Test
     public void loadJSONFromAsset() {
         String json = null;
@@ -66,12 +60,10 @@ public class MostPopularActivityUITestCase {
         mockResponse=json;
 
     }
-
     @Test
     public void MOST_POPULAR_ACTIVITY_PARENT_VIEW_IS_SHOWING(){
         onView(withId(R.id.mParentLayout)).check(matches(isDisplayed()));
     }
-
     @Test
     public void MOST_POPULAR_ACTIVITY_NETWORK_AVAILABILITY(){
         if(!NetworkAvailability.Companion.isNetworkAvailable(activityRule.getActivity())){
@@ -80,7 +72,6 @@ public class MostPopularActivityUITestCase {
             onView(withId(R.id.mProgressBar)).check(matches(not(isDisplayed())));
         }
     }
-
     @Test
     public void MOST_POPULAR_ACTIVITY_FETCH_DATA(){
         MockResponse response = new MockResponse().setBody(mockResponse).setBodyDelay(5, TimeUnit.SECONDS);
@@ -89,7 +80,6 @@ public class MostPopularActivityUITestCase {
         mockWebServer.enqueue(response);
 
     }
-
     /**/
     @Test
     public void MOST_POPULAR_ACTIVITY_FETCH_DATA_RECYCLER_VIEW_ONCLICK_ACTION() throws InterruptedException {
@@ -100,7 +90,6 @@ public class MostPopularActivityUITestCase {
         intent.putExtra(INTENT_KEY, "UI Testing");
         activityRule.launchActivity(intent);
     }
-
     /*Api fails*/
     @Test
     public void MOST_POPULAR_ACTIVITY_FETCH_DATA_FAILURE() {
@@ -111,7 +100,6 @@ public class MostPopularActivityUITestCase {
         onView(withId(R.id.mProgressBar)).check(matches(not(isDisplayed())));
         System.out.println("api not success");
     }
-
     @After
     public void  tearDown() throws IOException {
         mockWebServer.shutdown();
