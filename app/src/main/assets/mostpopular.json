@@ -1,0 +1,1189 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+  "num_results": 1637,
+  "results": [
+    {
+      "url": "https://www.nytimes.com/2019/12/08/nyregion/auschwitz-love-story.html",
+      "adx_keywords": "Holocaust and the Nazi Era;Concentration Camps;Jews and Judaism;Auschwitz Concentration Camp;Europe;Manhattan (NYC);World War II (1939-45);War Crimes, Genocide and Crimes Against Humanity;Wisnia, David;Tichauer, Helen (1918-2018);Dating and Relationships",
+      "column": null,
+      "section": "New York",
+      "byline": "By KEREN BLANKFELD",
+      "type": "Article",
+      "title": "Lovers in Auschwitz, Reunited 72 Years Later. He Had One Question.",
+      "abstract": "Was she the reason he was alive today?",
+      "published_date": "2019-12-08",
+      "source": "The New York Times",
+      "id": 100000006746090,
+      "asset_id": 100000006746090,
+      "views": 1,
+      "des_facet": [
+        "HOLOCAUST AND THE NAZI ERA",
+        "DATING AND RELATIONSHIPS"
+      ],
+      "org_facet": [
+        "CONCENTRATION CAMPS",
+        "JEWS AND JUDAISM",
+        "AUSCHWITZ CONCENTRATION CAMP",
+        "WORLD WAR II (1939-45)",
+        "WAR CRIMES, GENOCIDE AND CRIMES AGAINST HUMANITY"
+      ],
+      "per_facet": [
+        "WISNIA, DAVID",
+        "TICHAUER, HELEN (1918-2018)"
+      ],
+      "geo_facet": [
+        "EUROPE",
+        "MANHATTAN (NYC)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "David Wisnia at his home in Pennsylvania.",
+          "copyright": "Danna Singer for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/08/nyregion/08aushchwitz-lovers1/08aushchwitz-lovers1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/08/nyregion/08aushchwitz-lovers1/08aushchwitz-lovers1-mediumThreeByTwo210-v3.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/08/nyregion/08aushchwitz-lovers1/08aushchwitz-lovers1-mediumThreeByTwo440-v3.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/8edf8c46-8166-5577-992e-2f4cd9cd081c"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/11/business/jpmorgan-banking-racism.html",
+      "adx_keywords": "JPMorgan Chase & Company;Blacks;Discrimination;Banking and Financial Institutions;Financial Planners",
+      "column": null,
+      "section": "Business",
+      "byline": "By EMILY FLITTER",
+      "type": "Article",
+      "title": "This Is What Racism Sounds Like in the Banking Industry",
+      "abstract": "A JPMorgan employee and a customer secretly recorded their conversations with bank employees.",
+      "published_date": "2019-12-11",
+      "source": "The New York Times",
+      "id": 100000006847156,
+      "asset_id": 100000006847156,
+      "views": 2,
+      "des_facet": [
+        "DISCRIMINATION",
+        "BANKING AND FINANCIAL INSTITUTIONS"
+      ],
+      "org_facet": [
+        "JPMORGAN CHASE & COMPANY",
+        "BLACKS",
+        "FINANCIAL PLANNERS"
+      ],
+      "per_facet": "",
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Ash Ponders for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/11/business/11jpmorgan-02/11jpmorgan-02-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/11/business/11jpmorgan-02/11jpmorgan-02-mediumThreeByTwo210-v3.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/11/business/11jpmorgan-02/11jpmorgan-02-mediumThreeByTwo440-v3.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/e2490f23-530c-5abe-a40a-4ba87e60920a"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/11/nyregion/jersey-city-shooting.html",
+      "adx_keywords": "Murders, Attempted Murders and Homicides;Jersey City (NJ);Fulop, Steven M;Jersey City, NJ, Shooting (December 10, 2019)",
+      "column": null,
+      "section": "New York",
+      "byline": "By MICHAEL GOLD and ALI WATKINS",
+      "type": "Article",
+      "title": "Suspect in Jersey City Linked to Black Hebrew Israelite Group",
+      "abstract": "The Black Hebrew Israelites have been labeled a hate group. The suspect wrote anti-Semitic and anti-police posts, an official said.",
+      "published_date": "2019-12-11",
+      "source": "The New York Times",
+      "id": 100000006869463,
+      "asset_id": 100000006869463,
+      "views": 3,
+      "des_facet": [
+        "MURDERS, ATTEMPTED MURDERS AND HOMICIDES",
+        "JERSEY CITY, NJ, SHOOTING (DECEMBER 10, 2019)"
+      ],
+      "org_facet": "",
+      "per_facet": [
+        "FULOP, STEVEN M"
+      ],
+      "geo_facet": [
+        "JERSEY CITY (NJ)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The aftermath of a gunfight at a kosher market in Jersey City, N.J.",
+          "copyright": "Bryan Anselm for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/11/nyregion/11njshooting-livebriefing1-promo/11njshooting-livebriefing1-promo-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/11/nyregion/11njshooting-livebriefing1-promo/11njshooting-livebriefing1-promo-mediumThreeByTwo210-v3.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/11/nyregion/11njshooting-livebriefing1-promo/11njshooting-livebriefing1-promo-mediumThreeByTwo440-v3.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/8d0df5c6-216a-5929-9316-04323bdbbc91"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/12/world/europe/uk-elections-brexit.html",
+      "adx_keywords": "Politics and Government;Great Britain Withdrawal from EU (Brexit);European Union;Conservative Party (Great Britain);Labour Party (Great Britain);Great Britain",
+      "column": null,
+      "section": "World",
+      "byline": "",
+      "type": "Article",
+      "title": "U.K. General Election 2019: Conservatives Secure Large Majority in Parliament",
+      "abstract": "The victory empowers Boris Johnson to lead Britain through Brexit in January, its most momentous transition since World War II.",
+      "published_date": "2019-12-12",
+      "source": "The New York Times",
+      "id": 100000006867709,
+      "asset_id": 100000006867709,
+      "views": 4,
+      "des_facet": [
+        "POLITICS AND GOVERNMENT"
+      ],
+      "org_facet": [
+        "GREAT BRITAIN WITHDRAWAL FROM EU (BREXIT)",
+        "EUROPEAN UNION",
+        "CONSERVATIVE PARTY (GREAT BRITAIN)",
+        "LABOUR PARTY (GREAT BRITAIN)"
+      ],
+      "per_facet": "",
+      "geo_facet": [
+        "GREAT BRITAIN"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Early exit polls projected outside the BBC building in London.",
+          "copyright": "Tolga Akmen/Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/12/us/12uk-brief-promo-sub/12uk-brief-promo-sub-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/12/us/12uk-brief-promo-sub/12uk-brief-promo-sub-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/12/us/12uk-brief-promo-sub/12uk-brief-promo-sub-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/730757af-437b-5913-ae0d-bea007348ab2"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/10/nyregion/jersey-city-shooter.html",
+      "adx_keywords": "Jersey City (NJ);Jersey City, NJ, Shooting (December 10, 2019);Attacks on Police",
+      "column": null,
+      "section": "New York",
+      "byline": "By MICHAEL GOLD, NICK CORASANITI and WILLIAM K. RASHBAUM",
+      "type": "Article",
+      "title": "Jersey City Shooting Updates: 6 Killed, Including an Officer",
+      "abstract": "Two shooters opened fire on Tuesday afternoon at a kosher market.",
+      "published_date": "2019-12-10",
+      "source": "The New York Times",
+      "id": 100000006868028,
+      "asset_id": 100000006868028,
+      "views": 5,
+      "des_facet": [
+        "JERSEY CITY, NJ, SHOOTING (DECEMBER 10, 2019)",
+        "ATTACKS ON POLICE"
+      ],
+      "org_facet": "",
+      "per_facet": "",
+      "geo_facet": [
+        "JERSEY CITY (NJ)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Police officers took cover from gunfire on Tuesday afternoon as they responded to reports of an active shooter in Jersey City, N.J.",
+          "copyright": "Bryan Anselm for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/nyregion/10njshooting03-promo/10njshooting03-promo-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/nyregion/10njshooting03-promo/10njshooting03-promo-mediumThreeByTwo210-v7.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/nyregion/10njshooting03-promo/10njshooting03-promo-mediumThreeByTwo440-v7.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/bd39e034-c937-5382-839e-20ffb63c36f9"
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2019/arts/television/best-movies-on-netflix.html",
+      "adx_keywords": "Netflix Inc;Movies;Video Recordings, Downloads and Streaming",
+      "column": "",
+      "section": "Arts",
+      "byline": "By JASON BAILEY",
+      "type": "Interactive",
+      "title": "The 50 Best Movies on Netflix Right Now",
+      "abstract": "We’ve plucked out the 50 best films currently streaming on Netflix in the United States. Take a look.",
+      "published_date": "2019-03-06",
+      "source": "The New York Times",
+      "id": 100000006330108,
+      "asset_id": 100000006330108,
+      "views": 6,
+      "des_facet": [
+        "MOVIES",
+        "VIDEO RECORDINGS, DOWNLOADS AND STREAMING"
+      ],
+      "org_facet": [
+        "NETFLIX INC"
+      ],
+      "per_facet": "",
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Uma Thurman in “Pulp Fiction.”",
+          "copyright": "Linda R. Chen/Miramax Films",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2016/06/19/watching/pulp-fiction-watching-recommendation/pulp-fiction-watching-recommendation-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://interactive/3769fe44-d294-5a71-8281-5220a39673bf"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/10/us/politics/trump-antisemitism-executive-order.html",
+      "adx_keywords": "Colleges and Universities;Anti-Semitism;Boycott, Divestment and Sanctions (BDS);Freedom of Speech and Expression;Executive Orders and Memorandums;Trump, Donald J;United States Politics and Government",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By PETER BAKER and MAGGIE HABERMAN",
+      "type": "Article",
+      "title": "Trump Targets Anti-Semitism and Israeli Boycotts on College Campuses",
+      "abstract": "The president’s order would allow the government to withhold money from campuses deemed to be biased, but critics see it as an attack on free speech.",
+      "published_date": "2019-12-10",
+      "source": "The New York Times",
+      "id": 100000006868412,
+      "asset_id": 100000006868412,
+      "views": 7,
+      "des_facet": [
+        "COLLEGES AND UNIVERSITIES",
+        "ANTI-SEMITISM",
+        "UNITED STATES POLITICS AND GOVERNMENT"
+      ],
+      "org_facet": [
+        "BOYCOTT, DIVESTMENT AND SANCTIONS (BDS)",
+        "FREEDOM OF SPEECH AND EXPRESSION",
+        "EXECUTIVE ORDERS AND MEMORANDUMS"
+      ],
+      "per_facet": [
+        "TRUMP, DONALD J"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump at the Israeli American Council National Summit last week in Hollywood, Fla.",
+          "copyright": "T.J. Kirkpatrick for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/us/politics/10dc-antisemitism/10dc-antisemitism-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/us/politics/10dc-antisemitism/merlin_165601212_a636373d-f6e2-4b86-a094-07b2889c6872-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/us/politics/10dc-antisemitism/merlin_165601212_a636373d-f6e2-4b86-a094-07b2889c6872-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/29272eb1-acfe-58d3-bd6c-87685e25913a"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/09/world/asia/india-muslims-citizenship-narendra-modi.html",
+      "adx_keywords": "Citizenship and Naturalization;India;Muslims and Islam;Modi, Narendra;Immigration and Emigration;Freedom of Religion;Hinduism;Discrimination;Bharatiya Janata Party;Indian National Congress;Shah, Amit (1964- );Assam State (India);Law and Legislation",
+      "column": null,
+      "section": "World",
+      "byline": "By JEFFREY GETTLEMAN and SUHASINI RAJ",
+      "type": "Article",
+      "title": "India Steps Toward Making Naturalization Harder for Muslims",
+      "abstract": "A bill establishing a religious test for immigrants has passed the lower house of Parliament, a major step for Prime Minister Narendra Modi’s Hindu-nationalist agenda.",
+      "published_date": "2019-12-09",
+      "source": "The New York Times",
+      "id": 100000006865286,
+      "asset_id": 100000006865286,
+      "views": 8,
+      "des_facet": [
+        "CITIZENSHIP AND NATURALIZATION",
+        "LAW AND LEGISLATION"
+      ],
+      "org_facet": [
+        "MUSLIMS AND ISLAM",
+        "IMMIGRATION AND EMIGRATION",
+        "FREEDOM OF RELIGION",
+        "HINDUISM",
+        "DISCRIMINATION",
+        "BHARATIYA JANATA PARTY",
+        "INDIAN NATIONAL CONGRESS"
+      ],
+      "per_facet": [
+        "MODI, NARENDRA",
+        "SHAH, AMIT (1964- )"
+      ],
+      "geo_facet": [
+        "INDIA",
+        "ASSAM STATE (INDIA)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Muslims praying at a mosque in Tonk, India. Muslim Indians see a new citizenship bill as a step by the government to make them second-class citizens.",
+          "copyright": "Smita Sharma for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/09/world/09india-citizenship-1sub/09india-citizenship-1sub-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/09/world/09india-citizenship-1sub/09india-citizenship-1sub-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/09/world/09india-citizenship-1sub/09india-citizenship-1sub-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/269fc9ee-9069-5faf-bb75-55e4b0551c85"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/10/opinion/trump-impeachment.html",
+      "adx_keywords": "Trump, Donald J;Impeachment;Presidential Election of 2020;United States Politics and Government;Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry;Democratic Party;Republican Party;House of Representatives;Senate",
+      "column": null,
+      "section": "Opinion",
+      "byline": "By THOMAS L. FRIEDMAN",
+      "type": "Article",
+      "title": "Impeach Trump. Save America.",
+      "abstract": "It is the only thing to do if our country’s democracy is to survive.",
+      "published_date": "2019-12-10",
+      "source": "The New York Times",
+      "id": 100000006867805,
+      "asset_id": 100000006867805,
+      "views": 9,
+      "des_facet": [
+        "PRESIDENTIAL ELECTION OF 2020"
+      ],
+      "org_facet": [
+        "IMPEACHMENT",
+        "UNITED STATES POLITICS AND GOVERNMENT",
+        "TRUMP-UKRAINE WHISTLE-BLOWER COMPLAINT AND IMPEACHMENT INQUIRY",
+        "DEMOCRATIC PARTY",
+        "REPUBLICAN PARTY",
+        "HOUSE OF REPRESENTATIVES",
+        "SENATE"
+      ],
+      "per_facet": [
+        "TRUMP, DONALD J"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump spoke to reporters before boarding Marine One last month.",
+          "copyright": "Pete Marovich for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/opinion/10friedmanWeb/10friedmanWeb-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/opinion/10friedmanWeb/10friedmanWeb-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/opinion/10friedmanWeb/10friedmanWeb-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/09e47c83-c38a-5b9d-b924-f43809fe2cc8"
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2019/12/10/us/politics/articles-impeachment-document-pdf.html",
+      "adx_keywords": "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry;Impeachment;House Committee on the Judiciary;Trump, Donald J;Ukraine",
+      "column": "",
+      "section": "U.S.",
+      "byline": "By THE NEW YORK TIMES",
+      "type": "Interactive",
+      "title": "Read the Articles of Impeachment Against President Trump",
+      "abstract": "The House Judiciary Committee approved two articles of impeachment charging President Trump with abuse of power and obstruction of Congress. See them with context and analysis by The Times’s chief White House correspondent.",
+      "published_date": "2019-12-10",
+      "source": "The New York Times",
+      "id": 100000006867725,
+      "asset_id": 100000006867725,
+      "views": 10,
+      "des_facet": [
+        "TRUMP-UKRAINE WHISTLE-BLOWER COMPLAINT AND IMPEACHMENT INQUIRY",
+        "IMPEACHMENT"
+      ],
+      "org_facet": [
+        "HOUSE COMMITTEE ON THE JUDICIARY"
+      ],
+      "per_facet": [
+        "TRUMP, DONALD J"
+      ],
+      "geo_facet": [
+        "UKRAINE"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": " ",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/reader-center/10impeach-tear/10impeach-tear-thumbStandard-v2.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/reader-center/10impeach-tear/10impeach-tear-mediumThreeByTwo210-v2.png",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/reader-center/10impeach-tear/10impeach-tear-mediumThreeByTwo440-v2.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://interactive/d58d0e14-2731-5ef1-918a-7712f29da7ce"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/13/style/hallmark-channel-ads.html",
+      "adx_keywords": "Television;Hallmark Channel;Advertising and Marketing;Same-Sex Marriage, Civil Unions and Domestic Partnerships;Homosexuality and Bisexuality;Discrimination;Kissing;Zola Inc;Weddings and Engagements;American Family Assn;Crown Media Family Networks",
+      "column": null,
+      "section": "Style",
+      "byline": "By HEATHER MURPHY",
+      "type": "Article",
+      "title": "Hallmark Channel Pulls Zola Ads Featuring Brides Kissing",
+      "abstract": "A spokesman for the channel said the lesbian couple’s P.D.A. violated its policies. Hallmark did not reject a similar ad featuring an opposite-sex couple.",
+      "published_date": "2019-12-13",
+      "source": "The New York Times",
+      "id": 100000006874902,
+      "asset_id": 100000006874902,
+      "views": 11,
+      "des_facet": [
+        "TELEVISION",
+        "ADVERTISING AND MARKETING",
+        "SAME-SEX MARRIAGE, CIVIL UNIONS AND DOMESTIC PARTNERSHIPS",
+        "DISCRIMINATION",
+        "KISSING",
+        "WEDDINGS AND ENGAGEMENTS"
+      ],
+      "org_facet": [
+        "HALLMARK CHANNEL",
+        "HOMOSEXUALITY AND BISEXUALITY",
+        "ZOLA INC",
+        "AMERICAN FAMILY ASSN",
+        "CROWN MEDIA FAMILY NETWORKS"
+      ],
+      "per_facet": "",
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Several ads for Zola, a wedding website service, feature a same-sex couple kissing.",
+          "copyright": "Zola",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/15/multimedia/13xp-hallmark/13xp-hallmark-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/15/multimedia/13xp-hallmark/13xp-hallmark-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/15/multimedia/13xp-hallmark/13xp-hallmark-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/446177b3-dcdc-5781-8378-60e8456dba41"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/09/arts/television/vanna-white-wheel-of-fortune.html",
+      "adx_keywords": "Wheel of Fortune (TV Program);Television;White, Vanna;Sajak, Pat",
+      "column": null,
+      "section": "Arts",
+      "byline": "By MAYA SALAM",
+      "type": "Article",
+      "title": "Vanna White Takes a Spin as ‘Wheel of Fortune’ Host After 37 Years",
+      "abstract": "After Pat Sajak had emergency surgery, the show’s famous letter-turner took her first turn leading the show, for three weeks of episodes that start airing on Monday.",
+      "published_date": "2019-12-09",
+      "source": "The New York Times",
+      "id": 100000006862283,
+      "asset_id": 100000006862283,
+      "views": 12,
+      "des_facet": [
+        "TELEVISION"
+      ],
+      "org_facet": "",
+      "per_facet": [
+        "WHITE, VANNA",
+        "SAJAK, PAT"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Vanna White had only one practice run before stepping in to host “Wheel of Fortune.”",
+          "copyright": "Carol Kaelson",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/arts/09vannawhite1/09vannawhite1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/arts/09vannawhite1/09vannawhite1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/arts/09vannawhite1/09vannawhite1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/65c52f62-8b0c-5079-997d-8415c36abf3d"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/07/us/dna-bone-marrow-transplant-crime-lab.html",
+      "adx_keywords": "Forensic Science;Genetics and Heredity;Bone Marrow;DNA (Deoxyribonucleic Acid);Transplants;Crime and Criminals",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By HEATHER MURPHY",
+      "type": "Article",
+      "title": "When a DNA Test Says You’re a Younger Man, Who Lives 5,000 Miles Away",
+      "abstract": "After a bone marrow transplant, a man with leukemia found that his donor’s DNA traveled to unexpected parts of his body. A crime lab is now studying the case.",
+      "published_date": "2019-12-07",
+      "source": "The New York Times",
+      "id": 100000006759708,
+      "asset_id": 100000006759708,
+      "views": 13,
+      "des_facet": [
+        "FORENSIC SCIENCE",
+        "GENETICS AND HEREDITY",
+        "BONE MARROW",
+        "DNA (DEOXYRIBONUCLEIC ACID)",
+        "CRIME AND CRIMINALS"
+      ],
+      "org_facet": [
+        "TRANSPLANTS"
+      ],
+      "per_facet": "",
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Chris Long agreed to serve as a guinea pig for his colleagues’ experiment to help them understand how a bone marrow transplant could confuse a criminal investigation.  ",
+          "copyright": "Tiffany Brown Anderson for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/11/15/multimedia/00xp-chimera/00xp-chimera-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/11/15/multimedia/00xp-chimera/00xp-chimera-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/11/15/multimedia/00xp-chimera/00xp-chimera-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/606d186a-4ddf-5882-a595-c5888d76600c"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/11/us/harvey-weinstein-settlement.html",
+      "adx_keywords": "Weinstein, Harvey;Suits and Litigation (Civil);Sex Crimes;Sexual Harassment;Weinstein Co;Movies;Reparations",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By MEGAN TWOHEY and JODI KANTOR",
+      "type": "Article",
+      "title": "Weinstein and His Accusers Reach Tentative $25 Million Deal",
+      "abstract": "A proposed settlement would end nearly every lawsuit filed by the Hollywood producer’s alleged victims, without his having to admit wrongdoing or pay anything to the women.",
+      "published_date": "2019-12-11",
+      "source": "The New York Times",
+      "id": 100000006853283,
+      "asset_id": 100000006853283,
+      "views": 14,
+      "des_facet": [
+        "SEXUAL HARASSMENT",
+        "REPARATIONS"
+      ],
+      "org_facet": [
+        "SUITS AND LITIGATION (CIVIL)",
+        "SEX CRIMES",
+        "WEINSTEIN CO",
+        "MOVIES"
+      ],
+      "per_facet": [
+        "WEINSTEIN, HARVEY"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Harvey Weinstein arriving at court in Manhattan last year.",
+          "copyright": "Jeenah Moon for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/02/multimedia/00settle/00settle-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/02/multimedia/00settle/00settle-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/02/multimedia/00settle/00settle-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/1424d5f5-3d32-50e4-8636-78c10384070d"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/13/opinion/sunday/trump-democracy.html",
+      "adx_keywords": "Russian Interference in 2016 US Elections and Ties to Trump Associates;United States Politics and Government;Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry;Grief (Emotion);Anxiety and Stress;Psychology and Psychologists;Democracy (Theory and Philosophy);Impeachment;Putin, Vladimir V;Trump, Donald J;Russia;Rumors and Misinformation",
+      "column": null,
+      "section": "Opinion",
+      "byline": "By MICHELLE GOLDBERG",
+      "type": "Article",
+      "title": "Democracy Grief Is Real",
+      "abstract": "Seeing what Trump is doing to America, many find it hard to fight off despair.",
+      "published_date": "2019-12-13",
+      "source": "The New York Times",
+      "id": 100000006862658,
+      "asset_id": 100000006862658,
+      "views": 15,
+      "des_facet": [
+        "RUSSIAN INTERFERENCE IN 2016 US ELECTIONS AND TIES TO TRUMP ASSOCIATES",
+        "UNITED STATES POLITICS AND GOVERNMENT",
+        "TRUMP-UKRAINE WHISTLE-BLOWER COMPLAINT AND IMPEACHMENT INQUIRY",
+        "RUMORS AND MISINFORMATION"
+      ],
+      "org_facet": [
+        "GRIEF (EMOTION)",
+        "ANXIETY AND STRESS",
+        "PSYCHOLOGY AND PSYCHOLOGISTS",
+        "DEMOCRACY (THEORY AND PHILOSOPHY)",
+        "IMPEACHMENT"
+      ],
+      "per_facet": [
+        "PUTIN, VLADIMIR V",
+        "TRUMP, DONALD J"
+      ],
+      "geo_facet": [
+        "RUSSIA"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "T.J. Kirkpatrick for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/13/opinion/13goldberg2/13goldberg2-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/13/opinion/13goldberg2/merlin_165758757_737cee73-a2f0-4388-af10-55bb54f4cb72-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/13/opinion/13goldberg2/merlin_165758757_737cee73-a2f0-4388-af10-55bb54f4cb72-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/9e717db5-7922-53d2-9d62-0b212a4dd476"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/13/nyregion/tessa-majors-barnard-stabbing-arrest.html",
+      "adx_keywords": "Majors, Tessa (d 2019);Murders, Attempted Murders and Homicides;Robberies and Thefts;Morningside Park (Manhattan, NY);Morningside Heights (Manhattan, NY);Barnard College;Colleges and Universities",
+      "column": null,
+      "section": "New York",
+      "byline": "By MICHAEL GOLD, JAN RANSOM and EDGAR SANDOVAL",
+      "type": "Article",
+      "title": "Tessa Majors Killing: Boy, 13, Is Arrested",
+      "abstract": "He appeared in court on murder and robbery charges. Detectives believe two other teenagers took part in the stabbing, an official said.",
+      "published_date": "2019-12-13",
+      "source": "The New York Times",
+      "id": 100000006874128,
+      "asset_id": 100000006874128,
+      "views": 16,
+      "des_facet": [
+        "MURDERS, ATTEMPTED MURDERS AND HOMICIDES",
+        "COLLEGES AND UNIVERSITIES"
+      ],
+      "org_facet": [
+        "ROBBERIES AND THEFTS",
+        "BARNARD COLLEGE"
+      ],
+      "per_facet": [
+        "MAJORS, TESSA (D 2019)"
+      ],
+      "geo_facet": [
+        "MORNINGSIDE PARK (MANHATTAN, NY)",
+        "MORNINGSIDE HEIGHTS (MANHATTAN, NY)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Tessa Majors in a photo she posted to her Instagram account.",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/13/nyregion/13barnard-print/11barnardstab-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/13/nyregion/13barnard-print/11barnardstab-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/13/nyregion/13barnard-print/11barnardstab-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/8000422d-20fc-546c-97cf-df3c9caea3ff"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/14/us/politics/jeff-van-drew-democrat-republican.html",
+      "adx_keywords": "Van Drew, Jeff;New Jersey;House of Representatives;Democratic Party;Republican Party;Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry;Trump, Donald J;Impeachment;United States Politics and Government",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By JONATHAN MARTIN and NICK CORASANITI",
+      "type": "Article",
+      "title": "Representative Jeff Van Drew, Anti-Impeachment Democrat, Plans to Switch Parties",
+      "abstract": "The freshman Democrat, who represents a New Jersey district where President Trump is popular, told aides he would announce his switch next week.",
+      "published_date": "2019-12-14",
+      "source": "The New York Times",
+      "id": 100000006875876,
+      "asset_id": 100000006875876,
+      "views": 17,
+      "des_facet": [
+        "TRUMP-UKRAINE WHISTLE-BLOWER COMPLAINT AND IMPEACHMENT INQUIRY",
+        "IMPEACHMENT",
+        "UNITED STATES POLITICS AND GOVERNMENT"
+      ],
+      "org_facet": [
+        "HOUSE OF REPRESENTATIVES",
+        "DEMOCRATIC PARTY",
+        "REPUBLICAN PARTY"
+      ],
+      "per_facet": [
+        "VAN DREW, JEFF",
+        "TRUMP, DONALD J"
+      ],
+      "geo_facet": [
+        "NEW JERSEY"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Representative Jeff Van Drew of New Jersey has made it clear he won’t support impeachment.",
+          "copyright": "Anna Moneymaker/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/14/us/politics/14dc-vandrew-1/merlin_163630359_4d3f6f4a-d3dd-401a-93ff-381e75bcbe08-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/14/us/politics/14dc-vandrew-1/merlin_163630359_4d3f6f4a-d3dd-401a-93ff-381e75bcbe08-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/14/us/politics/14dc-vandrew-1/merlin_163630359_4d3f6f4a-d3dd-401a-93ff-381e75bcbe08-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/753e7b15-c084-5818-b884-4e7dcfb768d2"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/08/world/europe/carla-sands-trump-nato.html",
+      "adx_keywords": "Politics and Government;United States International Relations;Trump, Donald J;North Atlantic Treaty Organization;Copenhagen (Denmark);United States Politics and Government;Sloan, Stanley R;Struwe, Lars Bangert;Sands, Carla (1960- )",
+      "column": null,
+      "section": "World",
+      "byline": "By MARIEL PADILLA",
+      "type": "Article",
+      "title": "NATO Conference Is Canceled After U.S. Ambassador Barred a Trump Critic",
+      "abstract": "An expert was scheduled to speak at the Copenhagen event but was told the ambassador, Carla Sands, had vetoed his participation.",
+      "published_date": "2019-12-08",
+      "source": "The New York Times",
+      "id": 100000006864757,
+      "asset_id": 100000006864757,
+      "views": 18,
+      "des_facet": [
+        "POLITICS AND GOVERNMENT",
+        "UNITED STATES INTERNATIONAL RELATIONS",
+        "UNITED STATES POLITICS AND GOVERNMENT"
+      ],
+      "org_facet": [
+        "NORTH ATLANTIC TREATY ORGANIZATION"
+      ],
+      "per_facet": [
+        "TRUMP, DONALD J",
+        "SLOAN, STANLEY R",
+        "STRUWE, LARS BANGERT",
+        "SANDS, CARLA (1960- )"
+      ],
+      "geo_facet": [
+        "COPENHAGEN (DENMARK)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Carla Sands, the United States ambassador to Denmark, in January at Christiansborg Castle in Denmark.",
+          "copyright": "Philip Davali/Ritzau Scanpix, via Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/multimedia/08xp-natoSUB/08xp-natoSUB-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/multimedia/08xp-natoSUB/merlin_148703232_e281577a-f09e-4930-b333-2062d60dd9bd-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/10/multimedia/08xp-natoSUB/merlin_148703232_e281577a-f09e-4930-b333-2062d60dd9bd-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/724733cc-5e63-533d-937f-ef6a851cead3"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/10/upshot/irs-letter-health-insurance-fine-study.html",
+      "adx_keywords": "Health Insurance and Managed Care;Patient Protection and Affordable Care Act (2010);Research;Deaths (Fatalities)",
+      "column": null,
+      "section": "The Upshot",
+      "byline": "By SARAH KLIFF",
+      "type": "Article",
+      "title": "The I.R.S. Sent a Letter to 3.9 Million People. It Saved Some of Their Lives.",
+      "abstract": "The study was an accident. The results show the positive effects of health insurance.",
+      "published_date": "2019-12-10",
+      "source": "The New York Times",
+      "id": 100000006866386,
+      "asset_id": 100000006866386,
+      "views": 19,
+      "des_facet": [
+        "HEALTH INSURANCE AND MANAGED CARE"
+      ],
+      "org_facet": [
+        "PATIENT PROTECTION AND AFFORDABLE CARE ACT (2010)",
+        "RESEARCH",
+        "DEATHS (FATALITIES)"
+      ],
+      "per_facet": "",
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "At a rally in July to support the Affordable Care Act, demonstrators displayed images of Americans who could be hurt if the law were struck down.",
+          "copyright": "Jonathan Ernst/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/13/upshot/09up-aca1/09up-aca1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/13/upshot/09up-aca1/09up-aca1-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/13/upshot/09up-aca1/09up-aca1-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/4c8c1f5d-5af3-5e68-bee7-86b978be9b38"
+    },
+    {
+      "url": "https://www.nytimes.com/2019/12/14/us/man-slaps-reporter-arrest.html",
+      "adx_keywords": "Bozarjian, Alex;Callaway, Thomas R (1976- );Assaults;Television;News and News Media;WSAV-TV;Savannah (Ga)",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By JOHNNY DIAZ",
+      "type": "Article",
+      "title": "Man Accused of Smacking Reporter’s Rear on Live TV Is Charged",
+      "abstract": "Alex Bozarjian was reporting on a race in Savannah, Ga., when a passing runner slapped her behind. A video clip of the episode shared on Twitter provoked outrage.",
+      "published_date": "2019-12-14",
+      "source": "The New York Times",
+      "id": 100000006875713,
+      "asset_id": 100000006875713,
+      "views": 20,
+      "des_facet": [
+        "ASSAULTS",
+        "TELEVISION",
+        "NEWS AND NEWS MEDIA"
+      ],
+      "org_facet": [
+        "WSAV-TV"
+      ],
+      "per_facet": [
+        "BOZARJIAN, ALEX",
+        "CALLAWAY, THOMAS R (1976- )"
+      ],
+      "geo_facet": [
+        "SAVANNAH (GA)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Alex Bozarjian, a reporter for a television station in Savannah, Ga., reacting after a man smacked her behind while she was on live television.",
+          "copyright": "WSAV",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2019/12/14/us/14xp-tvreporter-image/14xp-tvreporter-image-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/14/us/14xp-tvreporter-image/14xp-tvreporter-image-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2019/12/14/us/14xp-tvreporter-image/14xp-tvreporter-image-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "uri": "nyt://article/824622d0-b7e0-54ec-8963-d77f24c325fa"
+    }
+  ]
+}

@@ -10,6 +10,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import io.reactivex.schedulers.Schedulers
+import java.net.HttpURLConnection
 
 class MostPopularViewModel : ViewModel() {
 
@@ -30,10 +31,14 @@ class MostPopularViewModel : ViewModel() {
             .subscribeOn(Schedulers.io())
             .subscribe({ popularResponse ->
                 eventLiveData.value = KotlinEvent.Companion.CompletedEvent
-                mostPopularLiveData.value=popularResponse
+                if(popularResponse.code()== HttpURLConnection.HTTP_OK) {
+                    mostPopularLiveData.value = popularResponse.body()
+                }else{
+                    eventLiveData.value= KotlinEvent.Companion.FailedEvent("Error loading")
+                }
             }, { error ->
                 eventLiveData.value = KotlinEvent.Companion.CompletedEvent
-                eventLiveData.value= KotlinEvent.Companion.FailedEvent(error.message?:"Error Occurred...")
+                eventLiveData.value= KotlinEvent.Companion.FailedEvent("Error loading")
             }).addTo(compositeDisposable)
     }
 

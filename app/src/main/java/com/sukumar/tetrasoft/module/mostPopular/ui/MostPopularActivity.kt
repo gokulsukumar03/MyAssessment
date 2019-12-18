@@ -1,9 +1,9 @@
 package com.sukumar.tetrasoft.module.mostPopular.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -66,11 +66,14 @@ class MostPopularActivity : AppCompatActivity() {
     }
 
     private fun showErrorMsg(error : String?){
-        Toast.makeText(this, error, Toast.LENGTH_LONG).show()
+        errorTv.visibility=View.VISIBLE
+        errorTv.text=error
     }
 
     override fun onDestroy() {
         mViewModel?.disposeRequest()
         super.onDestroy()
     }
+
+
 }
