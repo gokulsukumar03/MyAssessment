@@ -4,11 +4,11 @@ import com.google.gson.annotations.SerializedName
 
 data class ResultsItem(
     @field:SerializedName("byline")
-    var byline: String? = null,
+    val byline: String? = null,
 
     @field:SerializedName("title")
-    var title: String? = null,
+    val title: String? = null,
 
     @field:SerializedName("published_date")
-    var publishedDate: String? = null
+    val publishedDate: String? = null
 )
