@@ -1,7 +1,7 @@
 package com.sukumar.tetrasoft.module.common;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.res.TypedArray;
 import android.graphics.*;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
@@ -16,7 +16,6 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.ColorRes;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.RequiresApi;
-import com.sukumar.tetrasoft.R;
 
 public class CircularImageView extends androidx.appcompat.widget.AppCompatImageView {
 
@@ -28,7 +27,6 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
     private static final int DEFAULT_BORDER_WIDTH = 0;
     private static final int DEFAULT_BORDER_COLOR = Color.BLACK;
     private static final int DEFAULT_CIRCLE_BACKGROUND_COLOR = Color.TRANSPARENT;
-    private static final boolean DEFAULT_BORDER_OVERLAY = false;
 
     private final RectF mDrawableRect = new RectF();
     private final RectF mBorderRect = new RectF();
@@ -54,8 +52,6 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
 
     private boolean mReady;
     private boolean mSetupPending;
-    private boolean mBorderOverlay;
-    private boolean mDisableCircularTransformation;
 
     public CircularImageView(Context context) {
         super(context);
@@ -107,11 +103,6 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
 
     @Override
     protected void onDraw(Canvas canvas) {
-        if (mDisableCircularTransformation) {
-            super.onDraw(canvas);
-            return;
-        }
-
         if (mBitmap == null) {
             return;
         }
@@ -143,9 +134,6 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
         setup();
     }
 
-    public int getBorderColor() {
-        return mBorderColor;
-    }
 
     public void setBorderColor(@ColorInt int borderColor) {
         if (borderColor == mBorderColor) {
@@ -187,7 +175,6 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
      * Return the color drawn behind the circle-shaped drawable.
      *
      * @return The color drawn behind the drawable
-     *
      * @deprecated Use {@link #getCircleBackgroundColor()} instead.
      */
     @Deprecated
@@ -200,7 +187,6 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
      * this has no effect if the drawable is opaque or no drawable is set.
      *
      * @param fillColor The color to be drawn behind the drawable
-     *
      * @deprecated Use {@link #setCircleBackgroundColor(int)} instead.
      */
     @Deprecated
@@ -214,7 +200,6 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
      *
      * @param fillColorRes The color resource to be resolved to a color and
      *                     drawn behind the drawable
-     *
      * @deprecated Use {@link #setCircleBackgroundColorResource(int)} instead.
      */
     @Deprecated
@@ -222,44 +207,6 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
         setCircleBackgroundColorResource(fillColorRes);
     }
 
-    public int getBorderWidth() {
-        return mBorderWidth;
-    }
-
-    public void setBorderWidth(int borderWidth) {
-        if (borderWidth == mBorderWidth) {
-            return;
-        }
-
-        mBorderWidth = borderWidth;
-        setup();
-    }
-
-    public boolean isBorderOverlay() {
-        return mBorderOverlay;
-    }
-
-    public void setBorderOverlay(boolean borderOverlay) {
-        if (borderOverlay == mBorderOverlay) {
-            return;
-        }
-
-        mBorderOverlay = borderOverlay;
-        setup();
-    }
-
-    public boolean isDisableCircularTransformation() {
-        return mDisableCircularTransformation;
-    }
-
-    public void setDisableCircularTransformation(boolean disableCircularTransformation) {
-        if (mDisableCircularTransformation == disableCircularTransformation) {
-            return;
-        }
-
-        mDisableCircularTransformation = disableCircularTransformation;
-        initializeBitmap();
-    }
 
     @Override
     public void setImageBitmap(Bitmap bm) {
@@ -302,9 +249,7 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
     }
 
     private void applyColorFilter() {
-        if (mBitmapPaint != null) {
-            mBitmapPaint.setColorFilter(mColorFilter);
-        }
+        mBitmapPaint.setColorFilter(mColorFilter);
     }
 
     private Bitmap getBitmapFromDrawable(Drawable drawable) {
@@ -336,11 +281,8 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
     }
 
     private void initializeBitmap() {
-        if (mDisableCircularTransformation) {
-            mBitmap = null;
-        } else {
-            mBitmap = getBitmapFromDrawable(getDrawable());
-        }
+        mBitmap = getBitmapFromDrawable(getDrawable());
+
         setup();
     }
 
@@ -380,9 +322,9 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
         mBorderRadius = Math.min((mBorderRect.height() - mBorderWidth) / 2.0f, (mBorderRect.width() - mBorderWidth) / 2.0f);
 
         mDrawableRect.set(mBorderRect);
-        if (!mBorderOverlay && mBorderWidth > 0) {
-            mDrawableRect.inset(mBorderWidth - 1.0f, mBorderWidth - 1.0f);
-        }
+
+        mDrawableRect.inset(mBorderWidth - 1.0f, mBorderWidth - 1.0f);
+
         mDrawableRadius = Math.min(mDrawableRect.height() / 2.0f, mDrawableRect.width() / 2.0f);
 
         applyColorFilter();
@@ -391,7 +333,7 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
     }
 
     private RectF calculateBounds() {
-        int availableWidth  = getWidth() - getPaddingLeft() - getPaddingRight();
+        int availableWidth = getWidth() - getPaddingLeft() - getPaddingRight();
         int availableHeight = getHeight() - getPaddingTop() - getPaddingBottom();
 
         int sideLength = Math.min(availableWidth, availableHeight);
@@ -423,6 +365,7 @@ public class CircularImageView extends androidx.appcompat.widget.AppCompatImageV
         mBitmapShader.setLocalMatrix(mShaderMatrix);
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         return inTouchableArea(event.getX(), event.getY()) && super.onTouchEvent(event);

@@ -34,7 +34,7 @@ public class MostPopularTestCase {
     private PopularDto popular;
 
     @Before
-    public void SETUP() throws Exception {
+    public void SETUP() {
         MockitoAnnotations.initMocks(this);
         compositeDisposable = new CompositeDisposable();
     }
@@ -53,8 +53,8 @@ public class MostPopularTestCase {
 
                     @Override
                     public void onSuccess(Response<PopularDto> popularDtoResponse) {
-                        Assert.assertEquals(popularDtoResponse.body()!=null, true);
-                        Assert.assertEquals(popularDtoResponse.code()== HttpURLConnection.HTTP_OK, true);
+                        Assert.assertNotNull(popularDtoResponse.body());
+                        Assert.assertEquals(popularDtoResponse.code(), HttpURLConnection.HTTP_OK);
                         popular= popularDtoResponse.body();
                     }
 
@@ -68,35 +68,35 @@ public class MostPopularTestCase {
 
     @Test
     public void MOST_POPULAR_RESPONSE_IS_NULL_RETURN(){
-        Assert.assertEquals(popular!=null, true);
+        Assert.assertNotNull(popular);
     }
 
     @Test
     public void MOST_POPULAR_RESPONSE_IS_STATUS_IS_NULL_RETURN(){
-        Assert.assertEquals(popular.getStatus()!=null, true);
+        Assert.assertNotNull(popular.getStatus());
     }
 
     @Test
     public void MOST_POPULAR_RESPONSE_IS_STATUS_IS_EMPTY_RETURN(){
-        Assert.assertEquals(!Objects.requireNonNull(popular.getStatus()).isEmpty(), true);
+        Assert.assertTrue(!Objects.requireNonNull(popular.getStatus()).isEmpty());
     }
 
     @Test
     public void MOST_POPULAR_RESPONSE_IS_STATUS_IS_OK_RETURN(){
-        Assert.assertEquals(Objects.requireNonNull(popular.getStatus()).equalsIgnoreCase("OK"), true);
+        Assert.assertTrue(Objects.requireNonNull(popular.getStatus()).equalsIgnoreCase("OK"));
     }
 
     @Test
     public void MOST_POPULAR_RESPONSE_IS_RESULTS_IS_NULL_RETURN() {
         if (popular != null) {
-            Assert.assertEquals(popular.getResults() != null, true);
+            Assert.assertNotNull(popular.getResults());
         }
     }
 
     @Test
     public void MOST_POPULAR_RESPONSE_IS_RESULTS_IS_GREATHER_THAN_0_RETURN() {
         if (popular != null && popular.getResults()!=null) {
-            Assert.assertEquals(popular.getResults().size()>0, true);
+            Assert.assertTrue(popular.getResults().size() > 0);
         }
     }
 
@@ -104,7 +104,7 @@ public class MostPopularTestCase {
     public void MOST_POPULAR_RESPONSE_IS_RESULTS_TITLE_IS_NULL_RETURN() {
         if (popular != null && popular.getResults()!=null) {
             for (int i = 0; i < popular.getResults().size(); i++) {
-                Assert.assertEquals(popular.getResults().get(i).getTitle()!=null, true);
+                Assert.assertNotNull(popular.getResults().get(i).getTitle());
             }
         }
     }
@@ -113,7 +113,7 @@ public class MostPopularTestCase {
     public void MOST_POPULAR_RESPONSE_IS_RESULTS_TITLE_IS_EMPTY_RETURN() {
         if (popular != null && popular.getResults()!=null) {
             for (int i = 0; i < popular.getResults().size(); i++) {
-                Assert.assertEquals(!popular.getResults().get(i).getTitle().isEmpty(), true);
+                Assert.assertTrue(!Objects.requireNonNull(popular.getResults().get(i).getTitle()).isEmpty());
             }
         }
     }
@@ -122,7 +122,7 @@ public class MostPopularTestCase {
     public void MOST_POPULAR_RESPONSE_IS_RESULTS_WRITTEN_BY_IS_NULL_RETURN() {
         if (popular != null && popular.getResults()!=null) {
             for (int i = 0; i < popular.getResults().size(); i++) {
-                Assert.assertEquals(popular.getResults().get(i).getByline()!=null, true);
+                Assert.assertNotNull(popular.getResults().get(i).getByline());
             }
         }
     }
@@ -131,7 +131,7 @@ public class MostPopularTestCase {
     public void MOST_POPULAR_RESPONSE_IS_RESULTS_WRITTEN_BY_IS_EMPTY_RETURN() {
         if (popular != null && popular.getResults()!=null) {
             for (int i = 0; i < popular.getResults().size(); i++) {
-                Assert.assertEquals(!popular.getResults().get(i).getByline().isEmpty(), true);
+                Assert.assertTrue(!Objects.requireNonNull(popular.getResults().get(i).getByline()).isEmpty());
             }
         }
     }
@@ -140,7 +140,7 @@ public class MostPopularTestCase {
     public void MOST_POPULAR_RESPONSE_IS_RESULTS_DATE_IS_NULL_RETURN() {
         if (popular != null && popular.getResults()!=null) {
             for (int i = 0; i < popular.getResults().size(); i++) {
-                Assert.assertEquals(popular.getResults().get(i).getPublishedDate()!=null, true);
+                Assert.assertNotNull(popular.getResults().get(i).getPublishedDate());
             }
         }
     }
@@ -149,7 +149,7 @@ public class MostPopularTestCase {
     public void MOST_POPULAR_RESPONSE_IS_RESULTS_DATE_IS_EMPTY_RETURN() {
         if (popular != null && popular.getResults()!=null) {
             for (int i = 0; i < popular.getResults().size(); i++) {
-                Assert.assertEquals(!popular.getResults().get(i).getPublishedDate().isEmpty(), true);
+                Assert.assertTrue(!Objects.requireNonNull(popular.getResults().get(i).getPublishedDate()).isEmpty());
             }
         }
     }

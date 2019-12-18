@@ -10,8 +10,8 @@ import com.sukumar.tetrasoft.module.mostPopular.dto.ResultsItem
 import kotlinx.android.synthetic.main.adapter_most_popular.view.*
 
 class MostPopularAdapter(
-    val mContext: Context, val results: ArrayList<ResultsItem?>?, val clickCardListener: (result: ResultsItem) -> Unit) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
-    var mResult : ResultsItem?=null
+    private val mContext: Context, private val results: ArrayList<ResultsItem?>?, val clickCardListener: (result: ResultsItem) -> Unit) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+    private var mResult : ResultsItem?=null
 
     override fun getItemViewType(position: Int): Int {
         return 1
@@ -21,14 +21,14 @@ class MostPopularAdapter(
         val viewHolder: RecyclerView.ViewHolder?
         val inflater = LayoutInflater.from(mContext)
 
-        when (viewType) {
+        viewHolder = when (viewType) {
             1 -> {
                 val view = inflater.inflate(R.layout.adapter_most_popular, parent, false)
-                viewHolder = MostPopularViewHolder(view)
+                MostPopularViewHolder(view)
             }
             else -> {
                 val view = inflater.inflate(R.layout.adapter_most_popular, parent, false)
-                viewHolder = MostPopularViewHolder(view)
+                MostPopularViewHolder(view)
             }
         }
         return viewHolder

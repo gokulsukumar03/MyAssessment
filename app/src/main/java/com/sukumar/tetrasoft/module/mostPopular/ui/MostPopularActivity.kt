@@ -50,7 +50,7 @@ class MostPopularActivity : AppCompatActivity() {
             mMostPopularRecyclerView.setHasFixedSize(false)
             mostPopularAdapter = MostPopularAdapter(this, mostPopular.results) {
                 result->
-                Toast.makeText(this, "Clicked...", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, result.title?:"", Toast.LENGTH_LONG).show()
             }
             mMostPopularRecyclerView.layoutManager=layoutManager
             mMostPopularRecyclerView.adapter=mostPopularAdapter

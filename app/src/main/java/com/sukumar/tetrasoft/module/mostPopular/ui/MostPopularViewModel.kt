@@ -36,7 +36,7 @@ class MostPopularViewModel : ViewModel() {
                 }else{
                     eventLiveData.value= KotlinEvent.Companion.FailedEvent("Error loading")
                 }
-            }, { error ->
+            }, {
                 eventLiveData.value = KotlinEvent.Companion.CompletedEvent
                 eventLiveData.value= KotlinEvent.Companion.FailedEvent("Error loading")
             }).addTo(compositeDisposable)
