@@ -1,14 +1,16 @@
 package com.sukumar.tetrasoft.module.mostPopular.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.sukumar.tetrasoft.R
+import com.sukumar.tetrasoft.base.ApiBaseConfig.Companion.INTENT_KEY
 import com.sukumar.tetrasoft.base.KotlinEvent
+import com.sukumar.tetrasoft.module.moviedetail.MovieDetailActivity
 import kotlinx.android.synthetic.main.activity_most_popular.*
 
 class MostPopularActivity : AppCompatActivity() {
@@ -50,7 +52,7 @@ class MostPopularActivity : AppCompatActivity() {
             mMostPopularRecyclerView.setHasFixedSize(false)
             mostPopularAdapter = MostPopularAdapter(this, mostPopular.results) {
                 result->
-                Toast.makeText(this, result.title?:"", Toast.LENGTH_LONG).show()
+                startActivity(Intent(this@MostPopularActivity, MovieDetailActivity::class.java).putExtra(INTENT_KEY , result.title?:""))
             }
             mMostPopularRecyclerView.layoutManager=layoutManager
             mMostPopularRecyclerView.adapter=mostPopularAdapter
