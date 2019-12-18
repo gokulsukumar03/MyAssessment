@@ -15,7 +15,9 @@ import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import retrofit2.Response;
 
+import java.net.HttpURLConnection;
 import java.util.Objects;
 
 import static com.sukumar.tetrasoft.base.ApiBaseConfig.KEY;
@@ -42,23 +44,25 @@ public class MostPopularTestCase {
     public void fetchMostPopular() {
 
         apiInterface = ApiConfig.Companion.getApiInstance();
-        apiInterface.getPopularData(KEY).observeOn(Schedulers.trampoline()).subscribeOn(Schedulers.trampoline()).subscribe(new SingleObserver<PopularDto>() {
-            @Override
-            public void onSubscribe(Disposable d) {
-                compositeDisposable.add(d);
-            }
+        apiInterface.getPopularData(KEY).observeOn(Schedulers.trampoline()).subscribeOn(Schedulers.trampoline())
+                .subscribe(new SingleObserver<Response<PopularDto>>() {
+                    @Override
+                    public void onSubscribe(Disposable d) {
 
-            @Override
-            public void onSuccess(PopularDto popularDto) {
-                Assert.assertEquals(popularDto!=null, true);
-                popular=popularDto;
-            }
+                    }
 
-            @Override
-            public void onError(Throwable e) {
-                Assert.fail(e.getMessage());
-            }
-        });
+                    @Override
+                    public void onSuccess(Response<PopularDto> popularDtoResponse) {
+                        Assert.assertEquals(popularDtoResponse.body()!=null, true);
+                        Assert.assertEquals(popularDtoResponse.code()== HttpURLConnection.HTTP_OK, true);
+                        popular= popularDtoResponse.body();
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        Assert.fail(e.getMessage());
+                    }
+                });
 
     }
 
