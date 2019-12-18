@@ -32,7 +32,7 @@ import static com.sukumar.tetrasoft.module.common.AppConstants.INTENT_KEY;
 import static org.hamcrest.CoreMatchers.not;
 
 @RunWith(AndroidJUnit4.class)
-public class MostPopularUITestCase {
+public class MostPopularActivityUITestCase {
 
     @Rule
     public OkHttpIdlingResourceRule okHttpRule = new OkHttpIdlingResourceRule();
@@ -48,6 +48,7 @@ public class MostPopularUITestCase {
         mockWebServer.start(8080);
         ActivityScenario.launch(MostPopularActivity.class);
     }
+
 
     @Test
     public void loadJSONFromAsset() {
@@ -91,7 +92,7 @@ public class MostPopularUITestCase {
 
     /**/
     @Test
-    public void MOST_POPULAR_ACTIVITY_FETCH_DATA_RECYCLER_VIEW_SCROLL() throws InterruptedException {
+    public void MOST_POPULAR_ACTIVITY_FETCH_DATA_RECYCLER_VIEW_ONCLICK_ACTION() throws InterruptedException {
         Thread.sleep(2000);
         onView(withId(R.id.mMostPopularRecyclerView))
                 .perform(RecyclerViewActions.actionOnItemAtPosition(1, click()));
@@ -115,5 +116,6 @@ public class MostPopularUITestCase {
     public void  tearDown() throws IOException {
         mockWebServer.shutdown();
     }
+
 
 }
