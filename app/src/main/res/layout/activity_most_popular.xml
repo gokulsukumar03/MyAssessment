@@ -32,7 +32,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             android:textSize="40dp"
-            android:visibility="gone"
-            android:text="Error loading"/>
+            android:visibility="invisible"
+            android:text=""/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
