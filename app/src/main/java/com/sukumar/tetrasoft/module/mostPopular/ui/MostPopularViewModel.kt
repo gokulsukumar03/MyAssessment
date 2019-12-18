@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import com.sukumar.tetrasoft.base.ApiBaseConfig.Companion.KEY
 import com.sukumar.tetrasoft.base.ApiConfig
 import com.sukumar.tetrasoft.base.KotlinEvent
+import com.sukumar.tetrasoft.module.common.AppConstants.Companion.ERROR_LOADING
 import com.sukumar.tetrasoft.module.mostPopular.dto.PopularDto
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -34,11 +35,11 @@ class MostPopularViewModel : ViewModel() {
                 if(popularResponse.code()== HttpURLConnection.HTTP_OK) {
                     mostPopularLiveData.value = popularResponse.body()
                 }else{
-                    eventLiveData.value= KotlinEvent.Companion.FailedEvent("Error loading")
+                    eventLiveData.value= KotlinEvent.Companion.FailedEvent(ERROR_LOADING)
                 }
             }, {
                 eventLiveData.value = KotlinEvent.Companion.CompletedEvent
-                eventLiveData.value= KotlinEvent.Companion.FailedEvent("Error loading")
+                eventLiveData.value= KotlinEvent.Companion.FailedEvent(ERROR_LOADING)
             }).addTo(compositeDisposable)
     }
 

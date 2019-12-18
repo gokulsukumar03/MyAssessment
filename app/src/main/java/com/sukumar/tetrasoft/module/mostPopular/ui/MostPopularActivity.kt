@@ -8,8 +8,10 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.sukumar.tetrasoft.R
-import com.sukumar.tetrasoft.base.ApiBaseConfig.Companion.INTENT_KEY
 import com.sukumar.tetrasoft.base.KotlinEvent
+import com.sukumar.tetrasoft.module.common.AppConstants
+import com.sukumar.tetrasoft.module.common.AppConstants.Companion.INTENT_KEY
+import com.sukumar.tetrasoft.module.common.NetworkAvailability
 import com.sukumar.tetrasoft.module.moviedetail.MovieDetailActivity
 import kotlinx.android.synthetic.main.activity_most_popular.*
 
@@ -29,7 +31,11 @@ class MostPopularActivity : AppCompatActivity() {
         mViewModel = ViewModelProviders.of(this).get(MostPopularViewModel::class.java)
         mViewModel?.let {
             viewModel->
-            viewModel.fetchMostPopular()
+            if(NetworkAvailability.isNetworkAvailable(this)) {
+                viewModel.fetchMostPopular()
+            }else{
+                showNoInternet()
+            }
             viewModelListener()
         }
     }
@@ -72,10 +78,14 @@ class MostPopularActivity : AppCompatActivity() {
         errorTv.text=error
     }
 
+    private fun showNoInternet(){
+        errorTv.visibility=View.VISIBLE
+        errorTv.text=AppConstants.INTERNET_MSG
+    }
+
     override fun onDestroy() {
         mViewModel?.disposeRequest()
         super.onDestroy()
     }
-
 
 }

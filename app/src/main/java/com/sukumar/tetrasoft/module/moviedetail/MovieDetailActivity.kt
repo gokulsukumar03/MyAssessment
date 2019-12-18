@@ -3,7 +3,7 @@ package com.sukumar.tetrasoft.module.moviedetail
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.sukumar.tetrasoft.R
-import com.sukumar.tetrasoft.base.ApiBaseConfig.Companion.INTENT_KEY
+import com.sukumar.tetrasoft.module.common.AppConstants.Companion.INTENT_KEY
 import kotlinx.android.synthetic.main.activity_movie_detail.*
 
 class MovieDetailActivity : AppCompatActivity() {
