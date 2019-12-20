@@ -1,5 +1,6 @@
 package com.sukumar.tetrasoft.base
 
+import com.sukumar.movieapiapplication.ui.MovieResponseDto
 import com.sukumar.tetrasoft.base.ApiBaseConfig.Companion.API_KEY
 import com.sukumar.tetrasoft.base.ApiBaseConfig.Companion.POPULAR
 import com.sukumar.tetrasoft.module.mostPopular.dto.PopularDto
@@ -12,4 +13,7 @@ interface ApiInterface{
 
     @GET(POPULAR)
     fun getPopularData(@Query(API_KEY) apiKey : String) : Single<Response<PopularDto>>
+
+    @GET("bins/c46kw")
+    fun getMovieData() : Single<Response<MovieResponseDto>>
 }
